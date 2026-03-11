@@ -18,6 +18,7 @@ RUN apt install -y \
       libgbm1 \
       libegl1-mesa \
       libgl1 \
+      python3 \
       curl
 
 RUN mkdir /opt/jieli
